@@ -1,0 +1,11 @@
+<p class="x1"><a class="booktitle">Title:</a><a><%= @book.newbook %></a></p>
+<br>
+<p class="x2"><a class="bookbody">Body:</a><a><%= @book.detail %></a></p>
+
+<span>
+    <%= link_to "Edit", edit_book_path(@book.id) %>
+    <a>
+        |
+    </a>
+    <%= link_to "Back", "/books" %>
+</span>

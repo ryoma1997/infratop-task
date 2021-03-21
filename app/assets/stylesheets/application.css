@@ -1,0 +1,113 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+*{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+ }
+ 
+ h1{
+      margin-left:15px;
+ }
+ 
+ table{
+     border-spacing:6px;
+     margin-left:25px;
+ }
+ 
+ body{
+     margin:33px;
+     font-size:13px; 
+     background-color:#fff;
+ }
+ 
+ h4{
+     font-size:11px;
+ }
+ 
+ h2{
+      font-size:18px;
+      margin:15px;
+ }
+ 
+ table{
+     margin:8px;
+     background-color:#fff;
+ }
+ 
+ th,td{
+     border:6px;
+     background-color:#fff;
+     color: #333;
+ }
+ 
+ .caption{
+      text-align:center;
+ }
+ 
+ .newbook{
+      width:170px;
+      word-wrap:normal;
+ }
+ 
+ .text{
+      width:380px;
+      word-wrap:normal;
+ }
+ 
+ .actions{
+      margin-top:8px;
+ }
+ .titleform{
+      margin-bottom: 8px;
+ }
+ 
+ .booktitle{
+     font-weight:bold;
+ }
+ 
+ .bookbody{
+     font-weight: bold;
+ }
+ 
+ .show{
+     color:#333;
+     background-color: #fff;
+ }
+ 
+ .edit{
+     color:#333;
+     background-color: #fff;
+ }
+ 
+ .destroy{
+     color:#333;
+     background-color: #fff;
+ }
+ 
+ .x1{
+     margin-left:25px;
+     margin-bottom:20px;
+ }
+ 
+  .x2{
+     margin-left:25px;
+     margin-bottom:30px;
+ }
+ 
+ .updateform{
+     margin-bottom:5px;
+ }
